@@ -1,23 +1,10 @@
-const userInputString = prompt(
+const userInput = prompt(
   "Please enter some froyo flavors separated by commas."
 );
 
-const froyoFlavors = userInputString.split(",");
+const froyoFlavors = userInput.split(",");
 
 // console.log(froyoFlavors);
-
-const flavors = {};
-
-// for (let i = 0; i < froyoFlavors.length; i++) {
-//   const flavor = froyoFlavors[i];
-//   console.log(flavor);
-//   if (flavors[flavor] === undefined) {
-//     flavors[flavor] = 1;
-//   } else {
-//     flavors[flavor] += 1;
-//   }
-// }
-// console.log(flavors);
 
 function countFroyoFrequencies(froyoFlavors) {
   const flavors = {};
